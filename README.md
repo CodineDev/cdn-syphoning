@@ -70,7 +70,7 @@ Once you have found this line, copy the following one line above it:
 **If using decay, you must add the quality part at the end yourself!**
 
 <br> <br> 
-You can also following this GIF to better understand the process!
+You can also follow this GIF to better understand the process!
 
 ![step 3](https://i.imgur.com/2qMuyJm.gif)
 
