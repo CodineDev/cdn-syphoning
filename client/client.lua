@@ -80,20 +80,6 @@ RegisterNetEvent('cdn-syphoning:syphon:menu', function(itemData)
     })
 end)
 
-RegisterCommand('setfuel0', function ()
-    local vehicle = QBCore.Functions.GetClosestVehicle()
-    SetFuel(vehicle, 0)
-end, false)
-
-RegisterCommand('setfuel100', function ()
-    local vehicle = QBCore.Functions.GetClosestVehicle()
-    SetFuel(vehicle, 100)
-end, false)
-
-RegisterCommand('testpolicecall', function ()
-    PoliceAlert(GetEntityCoords(PlayerPedId()))
-end, false)
-
 RegisterNetEvent('cdn-syphoning:syphon', function(data)
     local reason = data.reason local HasSyphon = QBCore.Functions.HasItem("syphoningkit", 1)
     if Config.SyphonDebug then print('Item Data Syphon: '..json.encode(data.itemData)) end if Config.SyphonDebug then print('Reason: '..reason) end
