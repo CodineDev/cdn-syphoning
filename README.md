@@ -1,8 +1,11 @@
 ![Codine Development Syphoning Script Banner](https://i.imgur.com/EIzeqjY.png)
 
-### CDN-Syphoning
+# CDN-Syphoning
 
 Gas prices too high? Don't want to buy your own gas? Just steal it! CDN-Syphoning adds syphoning functionality based off an item. The way players get this item is up to you! Players will use the item next to vehicles and be able to steal the gas from the vehicle, or refuel the vehicle with the gas they obtained from syphoning.
+
+### __Important__
+This repository is being merged with our cdn-fuel system, expected to release soon. This resource, cdn-syphoning, is a standalone version of the syphoning, which will be available as a config option for the cdn-fuel resource.
 
 ### Dependencies:
 
@@ -98,6 +101,27 @@ If you wish, we have preconfigured an item for the qb-shops config, you can use 
 ```
 You will most likely have to change the slot it is in for it to work properly!
 <br><br>
+In order to use the */giveitem* command, you must follow this below.
+<br> <br>
+Navigate to inventoryname/server/server.lua, and CTRL + F the following line:
+```
+				elseif itemData["name"] == "harness" then
+					info.uses = 20
+```
+<br>
+Now we will add the following above the line below:
+
+```
+				elseif itemData["name"] == "syphoningkit" then
+					info.gasamount = 0
+```
+Alternatively, watch this GIF to better understand the process:
+<br>
+![Step 5 GIF](https://i.imgur.com/PdO72r0.gif)
+<br>
+**Otherwise, when spawning the item via */giveitem*, there will be an error on use!**
+<br><br>
+
 ![Codine Development Syphoning Script Features Banner](https://i.imgur.com/9jc8tll.png)
 
 #### Some features to mention within this cdn-syphoning
