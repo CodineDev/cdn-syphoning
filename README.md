@@ -4,8 +4,10 @@
 
 Gas prices too high? Don't want to buy your own gas? Just steal it! CDN-Syphoning adds syphoning functionality based off an item. The way players get this item is up to you! Players will use the item next to vehicles and be able to steal the gas from the vehicle, or refuel the vehicle with the gas they obtained from syphoning.
 
-### __Important__
-This repository is being merged with our cdn-fuel system, expected to release soon. This resource, cdn-syphoning, is a standalone version of the syphoning, which will be available as a config option for the cdn-fuel resource.
+# __Important__
+This repository is merged with our [cdn-fuel](https://github.com/CodineDev/cdn-fuel) system, which has been released. 
+<br><br>
+This resource, cdn-syphoning, is a **standalone** version of the syphoning, which is available as a config option for the [cdn-fuel](https://github.com/CodineDev/cdn-fuel) resource. Only use this resource if you **DO NOT** have [cdn-fuel](https://github.com/CodineDev/cdn-fuel) installed!
 
 ### Dependencies:
 
