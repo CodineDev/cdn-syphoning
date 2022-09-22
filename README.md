@@ -151,8 +151,7 @@ Here's a video showcasing the script in action!
 
 ### Future Plans
 
-- Implement into our [cdn-fuel](https://github.com/CodineDev/cdn-fuel) as a Config option!
-- Send other suggestions in our discord server! Link below!
+- Send suggestions in our discord server! Link below!
 
 <br>
 <br>
